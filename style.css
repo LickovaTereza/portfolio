@@ -20242,10 +20242,13 @@ header .header-banner {
   background-color: rgb(184, 165, 197);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
+}
+#skills .box p {
+  font-size: small;
 }
 #skills .box:hover {
   background-color: rgb(242, 237, 233);

@@ -72,16 +72,21 @@ header {
     background-color: $secondary;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
+    p {
+      font-size: small;
+    }
   }
 
   .box:hover {
     background-color: $success;
     border: 2px solid $secondary;
     margin: -2px;
+    // font-weight: bold;
+    // transition: font-weight 0.1s;
   }
 }
 
