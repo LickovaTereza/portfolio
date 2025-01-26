@@ -20223,12 +20223,13 @@ header .header-banner {
 
 #about .container {
   background-color: rgb(184, 165, 197);
-  padding-top: 15px;
   border-radius: 50px;
+  padding-top: 10px;
   min-height: 520px;
 }
 #about img {
   max-height: 500px;
+  border-radius: 50px;
 }
 
 #skills img {
