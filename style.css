@@ -20246,9 +20246,29 @@ header .header-banner {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  height: 60px;
+  position: relative;
 }
 #skills .box p {
   font-size: small;
+}
+#skills .box img {
+  position: absolute;
+  display: block;
+  transition: all 0.15s;
+}
+#skills .box span {
+  position: absolute;
+  color: transparent;
+  transition: all 0.15s;
+}
+#skills .box:hover span,
+#skills .box:focus span {
+  color: black;
+}
+#skills .box:hover img,
+#skills .box:focus img {
+  opacity: 0;
 }
 
 #hobbies .container {

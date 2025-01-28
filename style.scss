@@ -76,8 +76,32 @@ header {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    height: 60px;
     p {
       font-size: small;
+    }
+    position: relative;
+
+    img {
+      position: absolute;
+      display: block;
+      transition: all 0.15s;
+    }
+
+    span {
+      position: absolute;
+      color: transparent;
+      transition: all 0.15s;
+    }
+  }
+
+  .box:hover,
+  .box:focus {
+    span {
+      color: black;
+    }
+    img {
+      opacity: 0;
     }
   }
 }
