@@ -20250,11 +20250,6 @@ header .header-banner {
 #skills .box p {
   font-size: small;
 }
-#skills .box:hover {
-  background-color: rgb(242, 237, 233);
-  border: 2px solid rgb(184, 165, 197);
-  margin: -2px;
-}
 
 #hobbies .container {
   background-color: rgb(242, 212, 157);
